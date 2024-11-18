@@ -14,13 +14,17 @@ const RecentProjects = () => {
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
-          <div
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+          <a
             key={item.id}
+            href={item.link} // Redirect to the project's link
+            target="_blank"
+            rel="noopener noreferrer"
+            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] cursor-pointer"
+            style={{ textDecoration: "none" }} // Optional: Disable text underline
           >
             <PinContainer
-              title="/ui.aceternity.com"
-              href="https://twitter.com/mannupaaji"
+              title={item.link} // Dynamically set the tooltip to the project's link
+              href={item.link}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
@@ -55,25 +59,31 @@ const RecentProjects = () => {
                   {item.iconLists.map((icon, index) => (
                     <div
                       key={index}
-                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                      className="border border-white/[.2] rounded-full bg-black lg:w-12 lg:h-12 w-10 h-10 flex justify-center items-center"
                       style={{
-                        transform: `translateX(-${5 * index + 2}px)`,
+                        transform: `translateX(-${8 * index}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <img
+                        src={icon}
+                        alt="icon"
+                        className="p-1 lg:p-2 w-full h-full object-contain"
+                      />
                     </div>
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </div>
+                {item.id !== 1 && item.id !== 2 && (
+                  <div className="flex justify-center items-center">
+                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                      Check Live Site
+                    </p>
+                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  </div>
+                )}
               </div>
             </PinContainer>
-          </div>
+          </a>
         ))}
       </div>
     </div>

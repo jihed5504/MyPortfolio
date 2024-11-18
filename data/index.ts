@@ -73,68 +73,79 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Flight Reservation Management System",
+    des: "An application that allows users to search, select, and reserve flights between countries, with administrative management for flights, reservations, and accounts.",
+    img: "/flightManagementSystem.webp",
+    iconLists: ["/java.png", "/oracle.png", "/javaFX.png", "/CSS.svg"],
+    link: "https://github.com/jihed5504/FlightManagementSystem/tree/main",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Student Attendance Management System",
+    des: "A comprehensive application for managing student attendance, featuring roles for administrators, professors, and students with 2FA and email notifications.",
+    img: "/AttendanceManagementSystem.jpg",
+    iconLists: [
+      "/springboot.png",
+      "/angular.png",
+      "/jwt.png",
+      "/2fa.png",
+      "/smtp.png",
+    ],
+    link: "https://github.com/jihed5504/AttendanceManagementSystem",
   },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
+  // {
+  //   id: 3,
+  //   title: "AI Image SaaS - Canva Application",
+  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+  //   img: "/p3.svg",
+  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+  //   link: "/ui.aiimg.com",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Animated Apple Iphone 3D Website",
+  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
+  //   img: "/p4.svg",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //   link: "/ui.apple.com",
+  // },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Jihed was an outstanding experience. He developed a high-performance e-commerce platform that exceeded our expectations. His attention to detail, quick turnaround, and seamless integration of payment and product management systems were exceptional. I highly recommend him for any web development needs.",
+    name: "Ayoub Ghmir",
+    title: "Owner of Ghmir E-commerce",
+    image: "/ayoub.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Jihed created an exceptional musical event management system for our club, allowing us to organize, schedule, and promote events with ease. His ability to understand our needs and deliver a user-friendly and reliable solution was impressive. The system has streamlined our operations and made managing events a seamless experience.",
+    name: "Youssef Belkhayatia",
+    title: "Manager at Kindy Music Club",
+    image: "/youssef.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Jihed built a robust consulting app that streamlined our client management and reporting processes. His innovative approach and technical skills helped us automate key workflows, saving us significant time and resources. I would gladly collaborate with him again in the future.",
+    name: "Amenallah Jouini",
+    title: "Founder of Jouini Consulting",
+    image: "/Amenallah.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Jihed developed a medical store management system for FMT Club that revolutionized how we manage inventory and sales. The system is fast, user-friendly, and reliable, with seamless integration of modern tools for managing medical supplies. Jihed's ability to translate our requirements into a practical solution was remarkable.",
+    name: "Omar Adassi",
+    title: "Manager at FMT Club Associamed",
+    image: "/omar.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Jihed created a trading e-learning application that transformed our ability to train aspiring traders. The app's design is sleek, and the features are highly functional, including real-time trading simulations and interactive learning modules. His dedication to the project's success was evident at every stage.",
+    name: "Yassine Maaroufi",
+    title: "Founder of kyros Trading E-Learning Platform",
+    image: "/yassine.jpg",
   },
 ];
 
