@@ -58,10 +58,14 @@ export const FloatingNav = ({
               scroll={false} // Prevent Next.js's default scroll behavior
               onClick={(e) => {
                 e.preventDefault(); // Prevent default anchor jump
-                const targetElement = document.querySelector(navItem.link);
+                const targetElement = document.querySelector(
+                  navItem.link
+                ) as HTMLElement; // Ensure the element is HTMLElement
                 if (targetElement) {
-                  const offset =
-                    document.querySelector(".navbar")?.offsetHeight || 0;
+                  const navbar = document.querySelector(
+                    ".navbar"
+                  ) as HTMLElement; // Ensure this is also HTMLElement
+                  const offset = navbar?.offsetHeight || 0;
                   const top =
                     targetElement.getBoundingClientRect().top +
                     window.pageYOffset -
