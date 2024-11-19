@@ -51,8 +51,8 @@ export const gridItems = [
   {
     id: 5,
     title:
-      "Ready to leverage my Angular, .NET, and web tech expertise to tackle real-world challenges.",
-    description: "Seeking End-of-Studies Internship in Full-Stack Development",
+      "Engineering scalable web solutions with Angular and .NET to drive real-world impact.",
+    description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
