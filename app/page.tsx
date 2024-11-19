@@ -18,20 +18,23 @@ const Home = () => {
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=G-WB1ERLMP18`}
       />
+
       <Script
         id="gtag-config"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-WB1ERLMP18', {
-              page_path: window.location.pathname,
-            });
-          `,
+       console.log('GA script loaded');
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+       gtag('config', 'G-WB1ERLMP18', {
+         page_path: window.location.pathname,
+       });
+     `,
         }}
       />
+
       <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
         <div className="max-w-7xl w-full">
           <FloatingNav navItems={navItems} />
