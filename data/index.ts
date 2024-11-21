@@ -127,13 +127,13 @@ export const testimonials = [
     title: "Manager at Kindy Music Club",
     image: "/youssef.jpg",
   },
-  {
-    quote:
-      "Jihed built a robust consulting app that streamlined our client management and reporting processes. His innovative approach and technical skills helped us automate key workflows, saving us significant time and resources. I would gladly collaborate with him again in the future.",
-    name: "Amenallah Jouini",
-    title: "Founder of Jouini Consulting",
-    image: "/Amenallah.png",
-  },
+  // {
+  //   quote:
+  //     "Jihed built a robust consulting app that streamlined our client management and reporting processes. His innovative approach and technical skills helped us automate key workflows, saving us significant time and resources. I would gladly collaborate with him again in the future.",
+  //   name: "Amenallah Jouini",
+  //   title: "Founder of Jouini Consulting",
+  //   image: "/Amenallah.png",
+  // },
   {
     quote:
       "Jihed developed a medical store management system for FMT Club that revolutionized how we manage inventory and sales. The system is fast, user-friendly, and reliable, with seamless integration of modern tools for managing medical supplies. Jihed's ability to translate our requirements into a practical solution was remarkable.",
@@ -141,13 +141,13 @@ export const testimonials = [
     title: "Manager at FMT Club Associamed",
     image: "/omar.jpg",
   },
-  {
-    quote:
-      "Jihed created a trading e-learning application that transformed our ability to train aspiring traders. The app's design is sleek, and the features are highly functional, including real-time trading simulations and interactive learning modules. His dedication to the project's success was evident at every stage.",
-    name: "Yassine Maaroufi",
-    title: "Founder of kyros Trading E-Learning Platform",
-    image: "/yassine.jpg",
-  },
+  // {
+  //   quote:
+  //     "Jihed created a trading e-learning application that transformed our ability to train aspiring traders. The app's design is sleek, and the features are highly functional, including real-time trading simulations and interactive learning modules. His dedication to the project's success was evident at every stage.",
+  //   name: "Yassine Maaroufi",
+  //   title: "Founder of kyros Trading E-Learning Platform",
+  //   image: "/yassine.jpg",
+  // },
 ];
 
 export const companies = [
