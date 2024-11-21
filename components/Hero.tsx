@@ -19,7 +19,7 @@ const Hero = () => {
         {/* Updated button styles to match site design */}
         <div className="mt-3">
           <a
-            href="/Jihed_s_Resume.pdf"
+            href="/Jihed_s_ResumeEN.pdf"
             download="Jihed_Medini_Resume.pdf"
             className="flex items-center bg-indigo-700 hover:bg-indigo-800 text-white font-semibold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 shadow"
             style={{
